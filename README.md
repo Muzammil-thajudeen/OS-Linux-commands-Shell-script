@@ -205,38 +205,49 @@ egrep '(^hello)' newfile
 
 egrep '(world$)' newfile 
 ## OUTPUT
+<img width="285" height="88" alt="Screenshot 2026-05-01 091435" src="https://github.com/user-attachments/assets/2dd61146-cebc-4cc2-b1c2-99f1adb66a2b" />
+
+
+
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="261" height="71" alt="Screenshot 2026-05-01 091748" src="https://github.com/user-attachments/assets/5e4bb8d0-2d4a-49f4-8eb5-214a1feb647b" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+<img width="277" height="77" alt="Screenshot 2026-05-01 091834" src="https://github.com/user-attachments/assets/594b92bd-ae04-4059-a74d-3c9e20caf0a5" />
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="243" height="49" alt="Screenshot 2026-05-01 091919" src="https://github.com/user-attachments/assets/7b25c40c-8d79-42ac-b83f-b807d00643e1" />
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="312" height="89" alt="Screenshot 2026-05-01 092028" src="https://github.com/user-attachments/assets/2ad58d59-4948-4ac8-9f4e-875c55c7cf7d" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="318" height="82" alt="Screenshot 2026-05-01 092125" src="https://github.com/user-attachments/assets/bf7ba799-66fe-4d34-a7e0-bd58009d931d" />
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+<img width="215" height="59" alt="Screenshot 2026-05-01 092216" src="https://github.com/user-attachments/assets/70fe44f0-7c1a-4daa-b8e8-a21c6a5d670f" />
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="262" height="96" alt="Screenshot 2026-05-01 092253" src="https://github.com/user-attachments/assets/223277bb-0f52-4638-b426-1aea292164e1" />
 
 
 cat > file23
@@ -322,19 +333,23 @@ seq 10 | sed -n '2,~4p'
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+<img width="269" height="99" alt="Screenshot 2026-05-01 092335" src="https://github.com/user-attachments/assets/2076d34c-5a48-4683-92ab-926d0a9d18af" />
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="229" height="86" alt="Screenshot 2026-05-01 092423" src="https://github.com/user-attachments/assets/04d5c41f-26ae-4e41-90ec-27e440924e38" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="283" height="79" alt="Screenshot 2026-05-01 092506" src="https://github.com/user-attachments/assets/03a4f09d-17de-4b62-8319-ae6f3533cab6" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+<img width="296" height="76" alt="Screenshot 2026-05-01 092554" src="https://github.com/user-attachments/assets/47bba2f7-3e57-43e9-97d3-91aed47c1f9c" />
 
 
 sed -n '2,4{s/$/*/;p}' file23
@@ -352,6 +367,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+<img width="241" height="136" alt="Screenshot 2026-05-01 092650" src="https://github.com/user-attachments/assets/a6fb85b7-d565-4eb0-8e97-e8464c2607fe" />
 
 cat > file22
 ```
@@ -365,6 +381,7 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="253" height="88" alt="Screenshot 2026-05-01 092738" src="https://github.com/user-attachments/assets/4d0dd534-547b-49ab-bcb3-01705006f810" />
 
 
 #Using tr command
@@ -417,8 +434,6 @@ tar -tvf backup.tar
 tar -xvf backup.tar
 ## OUTPUT
 <img width="596" height="619" alt="image" src="https://github.com/user-attachments/assets/bcedcc76-d98f-4982-b9cd-6a61eb2d0e38" />
-
-gzip backup.tar
 
 ls .gz
 ## OUTPUT
@@ -503,7 +518,6 @@ echo $?
 ## OUTPUT 
  <img width="813" height="51" alt="image" src="https://github.com/user-attachments/assets/678c4c62-52bb-4926-b6e3-73cf05cbddfc" />
 
-abcd
  
 echo $?
  ## OUTPUT
@@ -802,7 +816,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ <img width="246" height="224" alt="Screenshot 2026-05-01 093417" src="https://github.com/user-attachments/assets/1c04fd49-e0c9-4ac3-9b67-660d6628c325" />
+
  
 cat untiltest.sh 
 ```bash
@@ -816,7 +831,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ <img width="399" height="102" alt="Screenshot 2026-05-01 093602" src="https://github.com/user-attachments/assets/3c414ae8-7e4f-4cd9-923b-384c6c85a5d7" />
+
  
 cat forin1.sh 
 ```bash
@@ -829,7 +845,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ <img width="477" height="153" alt="Screenshot 2026-05-01 093802" src="https://github.com/user-attachments/assets/79bb19cb-bcc6-4a27-b5c7-b3a125bb0129" />
+
  
 cat forin2.sh 
 ```bash
@@ -842,7 +859,8 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ <img width="368" height="109" alt="Screenshot 2026-05-01 093914" src="https://github.com/user-attachments/assets/d5f28ecf-2b07-4c4b-a49b-e6e4d2857289" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -879,6 +897,7 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+<img width="482" height="186" alt="Screenshot 2026-05-01 094035" src="https://github.com/user-attachments/assets/6bc82ceb-dcac-4b30-9d27-52da817d27fc" />
 
 ## OUTPUT
 cat forinfile.sh 
